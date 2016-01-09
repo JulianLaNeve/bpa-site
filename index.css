@@ -1,0 +1,156 @@
+.nav-wrapper {
+    background-color: #0047ab;
+}
+.brand-logo img {
+    height: 48px;
+    margin: 7px;
+    margin-left: 15px;
+}
+.nav-links .inverse {
+    background-color: white;
+}
+.nav-links .inverse a {
+    color: #0047ab !important;
+    font-weight: 500;
+}
+.nav-links li:not(.inverse) {
+    margin-right: 5px;
+}
+.slider-wrapper {
+    position: relative;
+}
+.slider {
+    margin-top: -50px;
+    z-index: -1;
+    position: absolute !important;
+}
+.slider img {
+    width: 100%;
+    min-width: 100%;
+    width: 100vw;
+}
+.caption {
+    margin-top: 100px;
+    margin-left: -100px;
+    position: absolute;
+    z-index: 2;
+}
+.caption h5 {
+    font-weight: lighter;
+    max-width: 60%;
+}
+.threecol {
+    margin-top: 530px;
+}
+.col1 {
+    background-color: #1057bb;
+    color: white;
+}
+.col2 {
+    background-color: #0047ab;
+}
+.col3 {
+    background-color: #00379b;
+}
+.header {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 48px;
+}
+.col1-t {
+    color: #1057bb !important;
+}
+.col2-t {
+    color: #0047ab !important;
+}
+.col3-t {
+    color: #00379b !important;
+}
+.text {
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+}
+.threecol .col a {
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+}
+.tagline {
+    font-size: 48px;
+    margin-top: -10px;
+    font-weight: 300;
+}
+.flash {
+    width: 50%;
+    margin-left: 25%;
+}
+.placeholder {
+    width: 70%;
+    margin-left: 15%;
+    height: 500px;
+    background-color: lightgrey;
+}
+.placeholder h2 {
+    text-align: center;
+    padding-top: 220px;
+}
+.stats-wrapper img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 90%;
+}
+.stats-wrapper li {
+    font-size: 20px;
+    font-weight: 300;
+}
+.stats-wrapper .custom {
+    padding: 2.5%;
+}
+.stats-wrapper .card-panel {
+    width: 80%;
+    margin-left: 10%;
+    min-height: 80%;
+    margin-top: 10%;
+    padding: 2.5%;
+}
+.stats-wrapper .card-panel:nth-child(-n+3) {
+    margin-top: 10%;
+}
+.stats-wrapper .card-panel:nth-child(2) {
+    margin-top: 5%;
+}
+.statistics {
+    font-weight: 400;
+    font-size: 72px !important;
+}
+iframe {
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.story .card-panel, .signs .card-panel {
+    width: 50%;
+    margin-left: 25%;
+}
+.story .card-panel .wrapper {
+    padding: 20px 40px;
+    font-weight: 300;
+}
+.signs .card-panel .wrapper {   
+    padding: 20px 40px;
+    font-weight: 300;
+}
+blockquote {
+    border-left: 5px solid white !important;
+}
+.story .header {
+    color: black;
+    margin-top: 2.5%;
+}

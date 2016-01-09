@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Cyberbullying Today</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">
+                <img src="cyberbullying.png">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down nav-links">
+                <li><a href="stats.html">Statistics</a></li>
+                <li><a href="story.html">Story</a></li>
+                <li><a href="countermeasures.html">Countermeasures</a></li>
+                <li class="inverse"><a href="report.html">Report a Bully</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <div class="row slider-wrapper">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="girl.jpg">
+                    <div class="caption left-align">
+                        <h3>Cyberbullying Today</h3>
+                        <h5 class="subcaption">Cyberbullying is an ever-increasing problem that many people aren't educated about.</h5>
+                        <br>
+                    </div>
+                </li>
+                <li>
+                    <img src="bandw.png">
+                    <div class="caption left-align">
+                        <h3>It Can Happen To Anyone</h3>
+                        <h5 class="subcaption">Cyberbullying is common among all teenagers, not just a select few.
+                        </h5>
+                        <br>
+                    </div>
+                </li>
+                <li>
+                    <img src="story.jpg">
+                    <div class="caption left-align">
+                        <h3>Real Stories</h3>
+                        <h5 class="subcaption">Amanda Todd, a typical teenager, faced cyberbullying and turned to drastic measures to stop the bullying.</h5>
+                        <br>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slider({
+                indicators: false,
+                height: 600
+            });
+        });
+
+    </script>
+
+
+
+
+
+
+    <div class="row threecol">
+        <div class="col s4 col1">
+            <h1 class="header">
+                Stats
+            </h1>
+            <div class="text">
+                How much do you think you know about cyberbullying?
+            </div>
+            <a class="btn waves-effect waves-light white col1-t" href="stats.html">
+                See the Statistics
+            </a>
+        </div>
+        <div class="col s4 col2">
+            <h1 class="header">
+                Signs
+            </h1>
+            <div class="text">
+                Think someone you know is being cyberbullied?
+            </div>
+            <a class="btn waves-effect waves-light white col2-t" href="signs.html">
+                Learn the Signs
+            </a>
+        </div>
+        <div class="col s4 col3">
+            <h1 class="header">
+                Report
+            </h1>
+            <div class="text">
+                Have you seen someone cyberbully or be cyberbullied?
+            </div>
+            <a class="btn waves-effect waves-light white col1-t" href="report.html">
+                Report It
+            </a>
+        </div>
+    </div>
+
+<!--    <img src="40.jpg" class="40img" style="width: 100%; margin-top: -20px;">-->
+
+    <div class="row">
+       <div class="placeholder valign-wrapper">
+           <h2 class="center-align valign">Video will start soon.</h2>
+       </div>
+    </div>
+    
+    <script>
+        setTimeout(function () { $('div.placeholder').replaceWith('<embed src="http://www.stopcyberbullying.org/flash/whatiscyberbullying.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="500" class="flash">') }, 5000);
+    </script>
+
+
+</body>
+
+</html>
