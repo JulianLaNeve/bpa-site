@@ -45,6 +45,9 @@
 .threecol .col {
     height: 250px;
 }
+.left {
+    margin-left: 15px !important;
+}
 .col1 {
     background-color: #1057bb;
     color: white;
