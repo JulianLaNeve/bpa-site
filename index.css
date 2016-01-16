@@ -42,6 +42,9 @@
 .threecol {
     margin-top: 530px;
 }
+.threecol .col {
+    height: 250px;
+}
 .col1 {
     background-color: #1057bb;
     color: white;
@@ -143,7 +146,7 @@ iframe {
     padding: 20px 40px;
     font-weight: 300;
 }
-.signs .card-panel .wrapper {   
+.signs .card-panel .wrapper {
     padding: 20px 40px;
     font-weight: 300;
 }
